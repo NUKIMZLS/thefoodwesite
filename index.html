@@ -1,39 +1,39 @@
-<!DOCTYPE html>   <！DOCTYPE   ！文档类型 html   超文本标记语言 >
-<html   超文本标记语言    < html   超文本标记语言 lang   朗 = "应用" >lang="zh-CN">
-<head   头>
-    <meta   元 charset   字符集="UTF-8"   “utf - 8”>
-    <meta   元 name   名字="viewport"   “视口” content   内容="width=device-width, initial-scale=1.0"“宽度=设备宽度,初始= 1.0”>
-    <title   标题>点菜系统</title   标题>
-       < >风格<style   风格>
-           身体{body   身体{
-            font-family   字体类型: '微软雅黑';
-               保证金:0;margin   保证金: 0;
-               填充:0;padding   填充: 0;
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>点菜系统</title>
+    <style>
+        body{
+            font-family: '微软雅黑';
+            margin: 0;
+            padding: 0;
         }
-        .   , {an   一个{
-            background-color   背景颜色: #808080;
-               显示:flex;display   显示: flex;
-               flex-direction:行;flex-direction: row   行;
-            justify-content:之间的空间;justify-content: space-between   之间的空间;
-               填充:10 px;padding   填充: 10px;
-               对齐项目:中心;align-items   对齐项目: center   中心;
+        .an{
+            background-color: #808080;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 10px;
+            align-items: center;
         }
-        .   ．a   。 {an   一个 a   一个 {
-            颜色：rgb(255,255,255)；color   ,颜色   颜色: rgb(255, 255, 255);
-               文字修饰:没有;text-decoration   文字修饰: none   没有一个;
+        .an a {
+            color   颜色: rgb(255, 255, 255);
+            text-decoration: none;
         }
-        .   ．h1   .h1 {an   一个 h1 {
-               保证金:0;margin   保证金: 0;
-               粗细:大胆的;font-weight   粗细: bold   大胆的;
+        .an h1 {
+            margin: 0;
+            font-weight: bold;
         }
-        .   ．a   。:hover   徘徊 {an   一个 a   一个:hover   徘徊 {
-            color   颜色   : #f5f4f4;
+        .an a:hover {
+            color   : #f5f4f4;
         }
-           一个{a   一个{
-               边框：1px实线#000；border: 1px solid   固体 #000;
+        a{
+            border: 1px solid #000;
         }
         .mtable{
-               宽度:100%;width   宽度: 100%;
+            width: 100%;
             border-color: #f5f4f4;
             border-collapse: collapse;
             margin:20px 0;/* margin是什么意思 */     
@@ -256,7 +256,6 @@
                 </td>
             </tr>
 
-            
             <tr>
                 <td>
                     黄不改
@@ -286,6 +285,63 @@
                 </td>
             </tr>
 
+            <tr>
+                <td>
+                    鸭腿饭
+                </td>
+                <td>
+                    <img src="food/鸭腿饭.jpg"  height="250px" width=atuo>
+                </td>
+                <td>
+                    <div class="selects">
+                        <div> 
+                            <label><input type="radio" name="yes" value="1"> 是</label>
+                            <label><input type="radio" name="yes" value="0"> 否</label>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="selects">
+                        <div class="select"> 
+                            <select name="taste" > 
+                                <option value="1"> 不辣</option>
+                                <option value="2"> 微辣</option>
+                                <option value="3"> 中辣</option>
+                                <option value="4"> 超辣</option>
+                            </select>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    卤肉饭
+                </td>
+                <td>
+                    <img src="food/卤肉饭.jpg"  height="250px" width=atuo>
+                </td>
+                <td>
+                    <div class="selects">
+                        <div> 
+                            <label><input type="radio" name="yes" value="1"> 是</label>
+                            <label><input type="radio" name="yes" value="0"> 否</label>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="selects">
+                        <div class="select"> 
+                            <select name="taste" > 
+                                <option value="1"> 不辣</option>
+                                <option value="2"> 微辣</option>
+                                <option value="3"> 中辣</option>
+                                <option value="4"> 超辣</option>
+                            </select>
+                        </div>
+                    </div>
+                </td>
+            </tr>
 
             <tr>   
                 <td>
